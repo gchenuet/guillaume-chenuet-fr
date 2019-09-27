@@ -1,0 +1,4 @@
+baseURL = "http://guillaume.chenuet.fr"
+languageCode = "en-us"
+title = "Guillaume Chenuet - CV"
+theme = "hugo-uilite"

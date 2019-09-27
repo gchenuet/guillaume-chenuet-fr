@@ -1,0 +1,21 @@
+{
+	"title" : "LIKES",
+	"services" : [
+		{
+			"icon" : "layer-group",
+			"title" : "DevOps"
+		},
+		{
+			"icon" : "cloud",
+			"title" : "Cloud Computing"
+		},
+		{
+			"icon" : "toolbox",
+			"title" : "Automation"
+		},
+		{
+			"icon" : "heart",
+			"title" : "Agile Methods"
+		}
+	]
+}

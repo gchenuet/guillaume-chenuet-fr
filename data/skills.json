@@ -1,0 +1,13 @@
+{
+	"title" : "Skills",
+	"skills" : {
+		"Automation (Ansible, Terraform, Puppet...)" : "80",
+		"Containers (K8S, Docker, GKE, Magnum...)" : "70",
+		"Integration (ZuulCI, Drone, Jenkins...)" : "85",
+		"Deployment (Concourse, Spinnaker, Travis...)" : "80",
+		"OpenStack (Kolla, Bifrost, Neutron...)" : "90",
+		"Amazon AWS (IAM, EKS, EC2...)" : "70",
+		"Agile Methods (Kanban, Scrum...)" : "65",
+		"Dev (Go, Python, C++, C...)" : "65"
+	}
+}
