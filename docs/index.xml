@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guillaume Chenuet - CV</title>
-    <link>http://guillaume.chenuet.fr/</link>
+    <link>https://guillaume.chenuet.fr/</link>
     <description>Recent content on Guillaume Chenuet - CV</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://guillaume.chenuet.fr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://guillaume.chenuet.fr/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
