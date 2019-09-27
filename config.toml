@@ -1,5 +1,5 @@
 baseURL = "https://guillaume.chenuet.fr/"
 languageCode = "en-us"
-title = "Guillaume Chenuet - CV"
+title = "Guillaume Chenuet"
 theme = "hugo-uilite"
 publishDir = "docs"
