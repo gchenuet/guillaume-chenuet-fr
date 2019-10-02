@@ -1,13 +1,14 @@
 {
 	"title" : "Skills",
 	"skills" : {
-		"Automation (Ansible, Terraform, Puppet...)" : "80",
-		"Containers (K8S, Docker, GKE, Magnum...)" : "70",
-		"Integration (ZuulCI, Drone, Jenkins...)" : "85",
-		"Deployment (Concourse, Spinnaker, Travis...)" : "80",
-		"OpenStack (Kolla, Bifrost, Neutron...)" : "90",
-		"Amazon AWS (IAM, EKS, EC2...)" : "70",
-		"Agile Methods (Kanban, Scrum...)" : "65",
-		"Dev (Go, Python, C++, C...)" : "65"
+		"Automation" : ["Ansible", "Terraform", "Puppet", "Packer", "CloudFormation", "Heat", "Vagrant"],
+		"Containers" : ["Docker", "Kubernetes", "AWS EKS", "Harbor", "Magnum", "OpenShift"],
+		"Integration" : ["Zuul CI", "Drone IO", "Jenkins", "Travis", "Gitlab CI"],
+		"Deployment" : ["Concourse", "Jenkins", "GoCD"],
+		"OpenStack" : ["Kolla", "Bifrost", "Ceph", "Ironic", "Nova", "Neutron", "Designate", "Manila"],
+		"Amazon AWS" : ["IAM", "EC2", "RDS", "EKS", "S3", "DynamoDB", "EFS", "OpsWorks", "Route53"],
+		"Agile Methods" : ["Scrum", "Kanban"],
+		"Observability" : ["Elasticsearch", "Logstash", "Kibana", "Prometheus", "Grafana", "Datadog", "Sensu"],
+		"Development " : ["Golang", "Python", "C++", "C", "Bash"]
 	}
 }
