@@ -2,7 +2,13 @@
 	"title" : "Experience",
 	"experience" : [
 		{
-			"timeperiod" : "Dec 2016 - Present",
+			"timeperiod" : "Jan 2020 - Present",
+			"company" : "leboncoin",
+			"website": "https://leboncoin.fr",
+			"description": "Lead Infrastructure Engineer"
+		},
+		{
+			"timeperiod" : "Dec 2016 - Dec 2019",
 			"company" : "leboncoin",
 			"website": "https://leboncoin.fr",
 			"description": "DevOps Engineer Productivity"
