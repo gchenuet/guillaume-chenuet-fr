@@ -2,21 +2,23 @@
 	"title" : "Experience",
 	"experience" : [
 		{
-			"timeperiod" : "Jan 2020 - Present",
+			"timeperiod" : "Jan 2021 - Present",
 			"company" : "leboncoin",
-			"website": "https://leboncoin.fr",
+			"description": "Engineering Manager"
+		},
+		{
+			"timeperiod" : "Sept 2019 - Dec 2020",
+			"company" : "leboncoin",
 			"description": "Lead Infrastructure Engineer"
 		},
 		{
-			"timeperiod" : "Dec 2016 - Dec 2019",
+			"timeperiod" : "Dec 2016 - Aug 2019",
 			"company" : "leboncoin",
-			"website": "https://leboncoin.fr",
 			"description": "DevOps Engineer Productivity"
 		},
 		{
 			"timeperiod" : "June 2014 - Nov 2016",
 			"company" : "Red Hat",
-			"website": "https://redhat.com",
 			"description": "OpenStack Cloud Technical Consultant"
 		},
 		{
@@ -27,13 +29,11 @@
 		{
 			"timeperiod" : "May 2012 - May 2013",
 			"company" : "Foncia Group",
-			"website" : "https://fr.foncia.com",
 			"description" : "System & Network Administrator"
 		},
 		{
 			"timeperiod" : "Sept 2009 - June 2014",
 			"company" : "EPITECH",
-			"website" : "https://www.epitech.eu",
 			"description" : "I've completed a Master at the European Institute of Information Technology (Epitech) in Paris"
 		}
 	]
