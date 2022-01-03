@@ -1,0 +1,19 @@
+{{ $skills := .Site.Data.skills }}
+
+<section id="skills" class="aqua text-light">
+  <h2 class="heading">{{ $skills.title }}</h2>
+
+  {{ range $key, $value := $skills.skills }}
+
+  <div class="skill">
+    <span class="h5">{{ $key }}</span>
+      <div>
+     	{{ range $tags := $value }}
+
+      		<span class="badge badge-info">{{ $tags }}</span>
+
+     	{{ end }} 
+      </div>
+  </div>
+  {{ end }}
+</section>
