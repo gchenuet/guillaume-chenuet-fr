@@ -2,6 +2,20 @@ html {
   overflow-x: hidden;
   overflow-y: scroll;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #262833;	
+    color: #FFFFFF;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a.bs {
+    color: #17a2b8;
+  }
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -105,6 +119,14 @@ h1, h2, h3, h4, h5, h6 {
   /*display: inline-block;*/
 }
 
+@media (prefers-color-scheme: dark) {
+  .highlight {
+    background-color: #6aa5a5;
+    padding: 4px 8px;
+    /*display: inline-block;*/
+  }
+}
+
 .form-control {
   border: none;
   background-color: #e8ebef !important;
@@ -197,6 +219,12 @@ h1, h2, h3, h4, h5, h6 {
           transform: scale(1.3);
 }
 
+@media (prefers-color-scheme: dark) {
+  i.fab, i.fas {
+    color: #FFFFFF;
+  }
+}
+
 section {
   padding: 10%;
 }
@@ -219,7 +247,14 @@ section.voilet {
 }
 
 section.blue {
-  background-color: #cadfdf;
+  background-color: #9ac2c2;
+}
+
+@media (prefers-color-scheme: dark) {
+  section.blue {
+    background-color: #68a3a3;
+    color: #000 !important;
+  }
 }
 
 section.orange {
@@ -228,7 +263,14 @@ section.orange {
 }
 
 section.green {
-  background-color: #aaffa7;
+  background-color: #6aa5a5;
+}
+
+@media (prefers-color-scheme: dark) {
+  section.green {
+    background-color: #477575;
+    color: #000 !important;
+  }
 }
 
 section.skin {
@@ -236,8 +278,15 @@ section.skin {
 }
 
 section.aqua {
-  background-color: #00fefe;
+  background-color: #cadfdf;
   color: #000 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  section.aqua {
+    background-color: #99c1c1;
+    color: #000 !important;
+  }
 }
 
 section.pink {
@@ -256,6 +305,15 @@ section.pink {
 .card {
   border-radius: 6px;
   border: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    border-radius: 6px;
+    border: none;
+    background-color: #262833;
+    color: #FFFFFF;
+  }
 }
 
 #timeline {
@@ -322,6 +380,10 @@ section.pink {
 #timeline .timeline-item .timeline-content.right {
   float: right;
   text-align: left;
+}
+
+#timeline .timeline-item .timeline-content h6 {
+  color: white;
 }
 
 .pagination .page-item.active .page-link {
